@@ -5,10 +5,10 @@ export default class header extends Component {
         <header id="home">
   <nav id="nav-wrap">
     <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-      Show navigation
+      Mostrar navegación
     </a>
     <a className="mobile-btn" href="#" title="Hide navigation">
-      Hide navigation
+      Esconder navegación
     </a>
     <ul id="nav" className="nav">
       <li className="current">
@@ -18,27 +18,27 @@ export default class header extends Component {
       </li>
       <li>
         <a className="smoothscroll" href="#about">
-          About
+          Acerca
         </a>
       </li>
       <li>
         <a className="smoothscroll" href="#resume">
-          Resume
+          Resumen
         </a>
       </li>
       <li>
         <a className="smoothscroll" href="#portfolio">
-          Works
+          Trabajos
         </a>
       </li>
       <li>
         <a className="smoothscroll" href="#testimonials">
-          Testimonials
+          Testimonios
         </a>
       </li>
       <li>
         <a className="smoothscroll" href="#contact">
-          Contact
+          Contacto
         </a>
       </li>
     </ul>{" "}
@@ -47,18 +47,16 @@ export default class header extends Component {
   {/* end #nav-wrap */}
   <div className="row banner">
     <div className="banner-text">
-      <h1 className="responsive-headline">I'm Jonathan Doe.</h1>
+      <h1 className="responsive-headline">Soy David San Luis</h1>
       <h3>
-        I'm a Manila based <span>graphic designer</span>,{" "}
-        <span>illustrator</span> and <span>webdesigner</span> creating awesome
-        and effective visual identities for companies of all sizes around the
-        globe. Let's{" "}
+        Soy un <span>programador web</span>,{" "}
+        amante de la filosofia  Let's{" "}
         <a className="smoothscroll" href="#about">
           start scrolling
         </a>
-        and learn more{" "}
+        aprende mas{" "}
         <a className="smoothscroll" href="#about">
-          about me
+          acerca de mi
         </a>
         .
       </h3>
@@ -66,27 +64,12 @@ export default class header extends Component {
       <ul className="social">
         <li>
           <a href="#">
-            <i className="fa fa-facebook" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
             <i className="fa fa-twitter" />
           </a>
         </li>
         <li>
-          <a href="#">
-            <i className="fa fa-google-plus" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
+          <a href="www.linkedin.com/in/david-san-luis-aguirre-263b95163">
             <i className="fa fa-linkedin" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i className="fa fa-instagram" />
           </a>
         </li>
         <li>
@@ -94,10 +77,6 @@ export default class header extends Component {
             <i className="fa fa-dribbble" />
           </a>
         </li>
-        <li>
-          <a href="#">
-            <i className="fa fa-skype" />
-          </a>
         </li>
       </ul>
     </div>
